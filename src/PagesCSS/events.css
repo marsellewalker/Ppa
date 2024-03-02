@@ -1,0 +1,67 @@
+/*Events section*/
+.background_container2{
+    text-align: center;
+  }
+h2{
+    text-wrap: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }
+.eventpage{
+    padding: 100px;
+  }
+
+
+.imgEv{
+    height: 100px;
+    transition: 0.5s ease-in-out;
+
+  }
+.imgEv:hover{
+    height: 200px;
+    transition: 0.5s ease-in-out;
+  }
+.vidoplayer{
+    padding-bottom: 100px;
+    width:500px;
+    height:360px;
+  }
+  
+.evintgalllery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 100px)); /* Adjust column width as needed */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .h2border{
+    border: 1px solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px skyblue;
+    background-color: rgb(245, 28, 166);
+    padding: 20px;
+    margin: 50px;
+    color: white;
+  }
+
+@media(max-width:375px){
+
+  h2{
+    text-wrap: nowrap;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+  }
+ .vidoplayer{
+    padding-bottom: 100px;
+    width:100%;
+    height:500px;
+  }
+  
+
+}
+  
+  /*Events section end*/
+  
+  

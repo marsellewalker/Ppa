@@ -1,0 +1,33 @@
+
+/* search bar*/
+
+.search{
+    display: flex;
+    background-color: #fff;
+    color: #fff;
+    max-width: 230px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 8px;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .search input[type=text] {
+    border:3px transparent;
+    background-color: transparent;
+    width: 150px;
+    font-family: 'Raleway';
+    outline: none;
+  }
+
+
+  button{
+    border: 2px solid;
+    border-radius: 8px;
+    width:100%;
+    height: 100%;
+  }
+  /* search bar end*/
+  

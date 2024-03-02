@@ -1,0 +1,35 @@
+/*home*/
+.image-gallery-image{
+    background:linear-gradient(mediumvioletred,white,white)
+
+}
+.style{
+  object-fit: cover;
+  width: 1000px;
+  height: 800px;
+  opacity: 70%;
+}
+
+.homecontainer .homebas2{
+  
+}
+
+.homebas2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  height:480px ;
+  padding: 30px;
+  box-shadow: 2px 2px 8px 2px rgb(170, 211, 245) ;
+}
+
+@media (max-width:748px) {
+  .style{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    opacity: 60%;
+  }
+}
